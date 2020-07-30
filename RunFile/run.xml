@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+    <test name="FirstTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!--<class name="Railway.testBookTickets"/>-->
+            <class name="Railway.TC01_LoginValidAccount"/>
+            <!--<class name="Railway.TC02_LoginWithBlankUserName"/>
+            <class name="Railway.TC03_LoginWithInvalidPassword"/>-->
+           <!-- <class name="Railway.TC04_RedirectLoginPageAfterLogin"/>-->
+           <!-- <class name="Railway.TC06_RedirectHomePageAfterLogin"/>
+            <class name="Railway.TC07_CreateNewAccount"/>
+            <class name="Railway.TC09_NewPassAndConfirmPassDifferent"/>
+            <class name="Railway.TC10_CreateAccountWithAlreayInUserEmail"/>
+            <class name="Railway.TC11_RegisterWithPasswordAndPidEmpty"/>
+            <class name="Railway.TC14_BookTickets"/>
+            <class name="Railway.TC15_CheckPriceTickets"/>
+            <class name="Railway.TC16_CancelTickets"/>-->
+        </classes>
+    </test>
+</suite>

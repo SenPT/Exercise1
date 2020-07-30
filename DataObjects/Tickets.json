@@ -1,0 +1,18 @@
+{
+  "tickets": [
+    {
+     "departDate": "8/3/2020",
+     "departFrom": "Sài Gòn",
+     "arriveAt": "Phan Thiết",
+     "seatType": "Hard seat",
+     "ticketAmount": "5"
+    },
+    {
+      "departDate": "8/4/2020",
+      "departFrom": "Sài Gòn",
+      "arriveAt": "Đà Nẵng",
+      "seatType": "Soft seat",
+      "ticketAmount": "3"
+    }
+  ]
+}
